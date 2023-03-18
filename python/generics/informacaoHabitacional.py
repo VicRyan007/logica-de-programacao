@@ -8,12 +8,12 @@ pais = 0
 
 while resp == False:
     sal = float(input("Digite o salario: R$ "))
-    quantidadeSalarios+=1
     if sal<0:
         totalFilhos/=pais
         break
     filhos = float(input("Digite a quantidade de filhos: "))
-    if filhos>1:
+    quantidadeSalarios+=1
+    if filhos>0:
         pais+=1
         totalFilhos+=filhos
     if sal>salMaior:
