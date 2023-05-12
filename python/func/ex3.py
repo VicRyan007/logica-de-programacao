@@ -8,4 +8,4 @@ def stair(n):
             cont += 1
         print()
 
-stair(3)
+stair(6)
